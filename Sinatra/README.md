@@ -8,3 +8,4 @@ Sinatra samples.
 - [Sample App using Sinatra and MongoDB](https://github.com/kunal/sinatra-mongodb-sample)
 - [An Introduction to ERB Templating](http://www.stuartellis.eu/articles/erb/)
 - [Creating HTML Dynamically with erb](http://xyzpub.com/en/ruby-on-rails/3.2/dynamische_webseiten.html)
+- [Sinatra Recipes: Mongo](http://recipes.sinatrarb.com/p/databases/mongo)
