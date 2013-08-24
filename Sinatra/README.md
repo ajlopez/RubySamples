@@ -9,3 +9,7 @@ Sinatra samples.
 - [An Introduction to ERB Templating](http://www.stuartellis.eu/articles/erb/)
 - [Creating HTML Dynamically with erb](http://xyzpub.com/en/ruby-on-rails/3.2/dynamische_webseiten.html)
 - [Sinatra Recipes: Mongo](http://recipes.sinatrarb.com/p/databases/mongo)
+- [Building Your First MongoDB App in Ruby: An OSCON 2012 Tutorial](http://architects.dzone.com/articles/building-your-first-mongodb)
+- [Constructing Web APIs with Rack, Sinatra and MongoDB](http://www.slideshare.net/oisin/constructing-web-apis-with-rack-sinatra-and-mongodb)
+
+
