@@ -4,6 +4,8 @@ Sinatra samples.
 
 ## References
 
+- [Getting Started](http://www.sinatrarb.com/intro.html)
+- [Sinatra::Base - Middleware, Libraries, and Modular Apps](http://www.sinatrarb.com/intro.html#Sinatra::Base%20-%20Middleware,%20Libraries,%20and%20Modular%20Apps)
 - [Building Backbone.js Apps With Ruby, Sinatra, MongoDB and Haml](http://addyosmani.com/blog/building-backbone-js-apps-with-ruby-sinatra-mongodb-and-haml/)
 - [Sample App using Sinatra and MongoDB](https://github.com/kunal/sinatra-mongodb-sample)
 - [An Introduction to ERB Templating](http://www.stuartellis.eu/articles/erb/)
