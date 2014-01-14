@@ -11,5 +11,12 @@ Sinatra samples.
 - [Sinatra Recipes: Mongo](http://recipes.sinatrarb.com/p/databases/mongo)
 - [Building Your First MongoDB App in Ruby: An OSCON 2012 Tutorial](http://architects.dzone.com/articles/building-your-first-mongodb)
 - [Constructing Web APIs with Rack, Sinatra and MongoDB](http://www.slideshare.net/oisin/constructing-web-apis-with-rack-sinatra-and-mongodb)
+- [Rolling With Sinatra](http://www.sitepoint.com/rolling-with-sinatra/)
+- [Build a Sinatra MVC Framework](http://www.sitepoint.com/build-a-sinatra-mvc-framework/)
+- [Sinatra Up and Running: A Book Review](http://www.sitepoint.com/sinatra-up-and-running-a-book-review/)
+- [Sinatra the Book](http://sinatra-book.gittr.com/)
+
+
+
 
 
