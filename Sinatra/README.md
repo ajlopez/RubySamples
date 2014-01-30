@@ -17,6 +17,8 @@ Sinatra samples.
 - [Build a Sinatra MVC Framework](http://www.sitepoint.com/build-a-sinatra-mvc-framework/)
 - [Sinatra Up and Running: A Book Review](http://www.sitepoint.com/sinatra-up-and-running-a-book-review/)
 - [Sinatra the Book](http://sinatra-book.gittr.com/)
+- [Building Backbone.js Apps With Ruby, Sinatra, MongoDB and Haml](http://addyosmani.com/blog/building-backbone-js-apps-with-ruby-sinatra-mongodb-and-haml/)
+
 
 
 
