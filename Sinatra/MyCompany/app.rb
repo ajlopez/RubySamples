@@ -44,3 +44,22 @@ get '/customer/:id' do
   erb :customerview
 end
 
+get '/customer/:id/edit' do
+  @title = 'Edit Customer'
+  @customer = Customer.get(params[:id])
+  erb :customeredit
+end
+
+post '/customer/:id/edit' do
+  customer = Customer.get(params[:id])
+  customer.name = params[:name]
+  customer.address = params[:address]
+  customer.save
+  redirect to("/customer/#{customer.id}")
+end
+
+get '/customer/:id/delete' do
+  customer = Customer.get(params[:id])
+  customer.destroy
+  redirect to("/customer")
+end
