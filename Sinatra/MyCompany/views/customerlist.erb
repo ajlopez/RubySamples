@@ -4,12 +4,14 @@
 <a class="btn btn-primary btn-sm" href="/customer/new">New Customer</a>
 </div>
 
-<table>
-<% @customers.each do |customer| %>
-<tr>
-<td><a href="/customer/<%= customer.id %>"><%= customer.id %></a></td>
-<td><%= customer.name %></td>
-</tr>
-<% end %>
-</table>
+<div class="row">
+    <table class="table-striped table-bordered">
+        <% @customers.each do |customer| %>
+        <tr>
+        <td><a href="/customer/<%= customer.id %>"><%= customer.id %></a></td>
+        <td><%= customer.name %></td>
+        </tr>
+        <% end %>
+    </table>
+</div>
 
