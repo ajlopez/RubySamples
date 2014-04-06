@@ -1,0 +1,10 @@
+<h1><%= @title %></h1>
+
+<table>
+<% @customers.each do |customer| %>
+<tr>
+<td><%= customer.id %></td>
+<td><%= customer.name %></td>
+<tr>
+<% end %>
+</table>
