@@ -1,0 +1,25 @@
+<h1><%= @title %></h1>
+
+<div class="row actions">
+<a class="btn btn-info btn-sm" href="/customer">Customer List</a>
+<a class="btn btn-primary btn-sm" href="/customer/<%= @customer.id %>/edit">Edit Customer</a>
+<a class="btn btn-danger btn-sm" href="/customer/<%= @customer.id %>/remove">Remove Customer</a>
+</div>
+
+<div class="row">
+    <table class="table-bordered">
+        <tr>
+            <td>Id</td>
+            <td><%= @customer.id %></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><%= @customer.name %></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><%= @customer.address %></td>
+        </tr>
+    </table>
+</div>
+

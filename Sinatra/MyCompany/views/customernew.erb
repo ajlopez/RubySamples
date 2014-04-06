@@ -1,0 +1,20 @@
+<h1><%= @title %></h1>
+
+<div class="row actions">
+<a class="btn btn-info btn-sm" href="/customer">Customer List</a>
+</div>
+
+<div class='row'>
+<form method="post" role="form" class="form">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" name="name" id="name">
+    </div>    
+    <div class="form-group">
+        <label for="name">Address</label>
+        <input type="text" class="form-control" name="address" id="address">
+    </div>    
+    
+    <input class="btn btn-primary" type="submit" value="Create" />
+</form>
+</div>

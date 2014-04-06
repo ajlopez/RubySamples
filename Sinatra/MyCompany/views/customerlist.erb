@@ -1,0 +1,15 @@
+<h1><%= @title %></h1>
+
+<div class="row actions">
+<a class="btn btn-primary btn-sm" href="/customer/new">New Customer</a>
+</div>
+
+<table>
+<% @customers.each do |customer| %>
+<tr>
+<td><a href="/customer/<%= customer.id %>"><%= customer.id %></a></td>
+<td><%= customer.name %></td>
+</tr>
+<% end %>
+</table>
+
