@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1><%= @title %></h1>
 
 <table>
@@ -8,3 +9,22 @@
 <tr>
 <% end %>
 </table>
+=======
+<h1><%= @title %></h1>
+
+<div class="row actions">
+<a class="btn btn-primary btn-sm" href="/customer/new">New Customer</a>
+</div>
+
+<div class="row">
+    <table class="table-striped table-bordered">
+        <% @customers.each do |customer| %>
+        <tr>
+        <td><a href="/customer/<%= customer.id %>"><%= customer.id %></a></td>
+        <td><%= customer.name %></td>
+        </tr>
+        <% end %>
+    </table>
+</div>
+
+>>>>>>> 6dcd6a0b45a0a9c40d22dee9ca7e85f859c38c1b
